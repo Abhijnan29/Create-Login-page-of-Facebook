@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faacebook Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<style>
+    body{
+        background-color: #1F76DE;
+    }
+
+
+    h1{
+        color: white;
+        padding: 10px;
+        float:left;
+        margin-left:0;
+
+    }
+
+    .content{
+        background-color:#4660E0 ;
+        height: 90px;
+        border: 1px solid black;
+    }
+
+
+    .email_id{
+        display:inline;
+        background-color:lightgoldenrodyellow;
+        margin:5px;
+        padding: 5px;
+
+    }
+
+    .password{
+        display:inline;
+        background-color:lightgoldenrodyellow;
+        margin:5px;
+        padding: 5px;
+
+    }
+
+
+    .login{
+        margin-top: 20px;
+        float:right;
+    }
+
+    #signin{
+        background-color:#4177B8;
+        font-display: inline;
+        color:black;
+        font-size: 1px solid black;
+
+    }
+
+    .intro{
+        color:#4660E0;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
+        margin: 100px;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .role{
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 10px;
+        float: left;
+    }
+    
+    .content{
+
+        height: 150px;
+        background: #0e5df1;  /* fallback for old browsers */
+        border: 1px solid black;
+    }
+
+    .image{
+         height:400px;
+         width: 600px;
+         margin: 200px;
+         border:5px;
+         
+
+    }
+
+    #name-content{
+        height: 700px;
+        width:500px;
+        background-color: white;
+        border: 1px solid white;
+
+    }
+
+    #create-account{
+        float: right;
+        height: 900px;
+        background: white;  /* fallback for old browsers */
+        border: 1px solid black;
+        margin:200px;
+        padding: 100px;
+        border-radius:1cm;
+        width: 800px;
+        float: right;
+    }
+
+
+    @media (max-width: 720px) {
+        .signin{
+         width: 98%;
+         margin: 5px;
+         background-color: aliceblue;
+        }
+    }
+
+    @media (max-width: 1023px) and (min-width: 721px) {
+
+        .signin{
+             width: 48%;
+             margin: 5px;
+             background-color: greenyellow;
+        }
+    }
+
+    #link{
+        background-color: black;
+        display: inline;
+    }
+  }  
+
+  .moe{
+    box-sizing: 10px;
+  }
+
+  .sign{
+    background-color: #0ABB55;
+    float: right;
+  }
+
+  .ACCOUNT{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  }
+
+  .forget{
+    text-align: bold;
+  }
+
+</style >
+<body>
+    <div class="content">
+        <h1 class="logo">Facebook</h1>
+        <div class="login">
+          <form>
+            <input class="email_id" type="text" placeholder="Email or Phone Number" required />
+            <input class="password" type="password" placeholder="Password" required>
+            <button class="login">Log In</button>
+            <a class="forget" href="####">Forgot Password ?</a>
+            <hr>
+          </form>
+        </div>
+    </div>
+
+    <div class="signin">
+        <div id="create-account">
+
+            <center><h2 class="ACCOUNT">CREATE AN ACCOUNT</h2></center>
+            <h6>IT's QUICK & EASY</h6>
+            <form>
+            <br>
+            <br>    
+            <label>
+                First Name
+            </label>
+            <input type="Name" placeholder="First Name" required>
+            <label>
+                Last Name
+            </label>
+            <input type="Name" placeholder="Last Name" required>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>
+                Mobile Number Or Email Address
+            </label>
+            <input class="moe" type="email or number" placeholder="Mobile Number or Email address" required>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>
+                password
+            </label>
+            <input type="password" placeholder="create passsword" required>
+            <input type="password" placeholder="confirm password" required>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>
+                Birthday
+            </label>
+            <input type="date" placeholder="Date of Birth"required>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <label>Gender</label><br>
+            <label>Male</label>
+            <input type="checkbox">
+            <label>Female</label>
+            <input type="checkbox">
+            <label>Custom</label>
+            <input type="checkbox">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="checkbox" value="privacy policy" required>
+            <label>Accept Privacy Policy</label>
+
+            <br>
+            <br>
+            <button class="sign" type="submit">Sign in</button>
+        </div>
+    </div>
+  </body>
+</html>
+
